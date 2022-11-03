@@ -21,36 +21,36 @@ Twilio provides SendGrid that can be used for everything email. This project uti
 ## Testing
 
 - Clone this repo:
-```python
-$ git clone git@github.com:GitauHarrison/email-verification-using-twilio-sendgrid-and-flask.git
-```
+    ```python
+    $ git clone git@github.com:GitauHarrison/email-verification-using-twilio-sendgrid-and-flask.git
+    ```
 
 - Change directory to the project's:
-```python
-$ cd email-verification-using-twilio-sendgrid-and-flask
-```
+    ```python
+    $ cd email-verification-using-twilio-sendgrid-and-flask
+    ```
 
 - Create and activate a virtual environment:
-```python
-$ mkvirtualenv venv # I am using virtualenvwrapper
-```
+    ```python
+    $ mkvirtualenv venv # I am using virtualenvwrapper
+    ```
 
 - Install project dependencies:
-```python
-(venv)$ pip3 install -r requirements.txt
-```
+    ```python
+    (venv)$ pip3 install -r requirements.txt
+    ```
 
 - Copy the the contents of `.env-template` to `.env`:
-```python
-(venv)$ cp .env-template .env
-```
+    ```python
+    (venv)$ cp .env-template .env
+    ```
 
 - Update `.env` with their values. See how [here](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid/04_email_verification.md#working-with-sendgrid).
 
 - Run the application
-```python
-(venv)$ flask run
-```
+    ```python
+    (venv)$ flask run
+    ```
 
 - Check the application in your favourite browser by pasting the link http://127.0.0.1:5000/. You should be able to see the application.
 
