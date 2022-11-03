@@ -59,6 +59,6 @@ Twilio provides SendGrid that can be used for everything email. This project uti
 
 To use SendGrid's API, you need to create an account with them. You can see how to do so [here](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid/01_create_acccount.md).
 
-The application has the [`verify_email`](app/verify_email.py) module that uses Twilio Verify service. To create this service, you will need to begin by creating an account with them. It is a short process that you should be able to do quickly. For information, refer to [this](https://github.com/GitauHarrison/notes/blob/master/two_factor_authentication/twilio_verify_2fa.md).
+The application has the [`verify_email`](app/verify_email.py) module that uses Twilio Verify service. To create this service, you will need to begin by creating an account with them. It is a short process that you should be able to do quickly. For more information, refer to [this](https://github.com/GitauHarrison/notes/blob/master/two_factor_authentication/twilio_verify_2fa.md).
 
-Check how this entire project was made from scratch by refering to this [article](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid/04_email_verification.md).
+Check how this entire project was made from scratch by referring to this [article](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid/04_email_verification.md).
